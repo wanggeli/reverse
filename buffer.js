@@ -19,7 +19,8 @@ exports.findBody = function (buffer) {
 		}
 	}
 	return -1;
-}
+};
+
 /*
 * 从请求头部取得请求详细信息
 * 如果是 CONNECT  方法，返回 { method,host,port,httpVersion }
